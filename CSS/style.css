@@ -50,9 +50,22 @@ justify-content: space-around;
 
 .banner{
     display: flex;
-    justify-content: space-around;
-    gap: 163px;
+    justify-content: space-between;
+    /* gap: 163px; */
     align-items: center;
+}
+.banner-image{
+    background-repeat: no-repeat;
+    width: 40%;
+    background-position: bottom, top;
+    background-image: url('/images/header_bg.png');
+}
+.banner-image img{
+    position: relative;
+    left: 180px;
+}
+.banner-description{
+    margin-left: 230px;
 }
 .banner-description h2{
     font-size: 45px;
