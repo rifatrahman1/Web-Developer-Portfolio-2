@@ -11,12 +11,20 @@ body{
 
 /* navbar section start */
 nav{
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-image:url('/images/header_bg.png'), url('/images/developer.png');
     background-color: rgb(255, 248, 243);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1600px;
 }
 .navbar{
 display: flex;
 align-items: center;
 padding-top: 51px;
+/* z-index: -1; */
 justify-content: space-around;
 }
 .mary h1{
@@ -51,18 +59,16 @@ justify-content: space-around;
 .banner{
     display: flex;
     justify-content: space-between;
-    /* gap: 163px; */
     align-items: center;
+    
 }
 .banner-image{
     background-repeat: no-repeat;
-    width: 40%;
-    background-position: bottom, top;
-    background-image: url('/images/header_bg.png');
+    background-position: bottom right;
 }
 .banner-image img{
     position: relative;
-    left: 180px;
+    left: 125px;
 }
 .banner-description{
     margin-left: 230px;
@@ -114,3 +120,58 @@ justify-content: space-around;
     font-size: 20px;
     font-weight: 700;
 }
+
+/* main seciton start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* --- about section start */
+.about-section{
+    margin-top: 130px;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: rgb(255, 248, 243);
+}
+
+.about{
+    width: 827px;
+    margin: auto;
+    position: relative;
+    bottom: -131px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.about h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    color: rgb(117, 117, 117);
+}
+.about-main{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: space-around;
+    /* gap: 50px; */
+}
+.about-description p{
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+}
+.about-description h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+/* --- about section end */
+
+/* main seciton end */
