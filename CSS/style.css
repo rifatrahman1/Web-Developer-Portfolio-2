@@ -10,8 +10,38 @@ body{
 }
 
 /* navbar section start */
+nav{
+    background-color: rgb(255, 248, 243);
+}
 .navbar{
-
+display: flex;
+align-items: center;
+padding-top: 51px;
+justify-content: space-around;
+}
+.mary h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.mary span{
+    color: rgb(253, 110, 10);
 }
 
+.nav-link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 51px;
+    color: rgb(71, 71, 71);
+}
+.nav-link button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+    margin-left: 51px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(253, 110, 10);
+}
 /* navbar section end */
