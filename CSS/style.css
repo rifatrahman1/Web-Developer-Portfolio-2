@@ -272,4 +272,30 @@ hr{
 /* main seciton end */
 
 /* lets footer section start */
+footer{
+    display: flex;
+    gap: 125px;
+    padding: 130px 230px;
+    background-color: rgb(255, 248, 243);
+}
+.footer-description h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 28px;
+    color: rgb(71, 71, 71);
+}
+.icons{
+    display: flex;
+    gap: 35px;
+    margin-top: 35px;
+}
+.message-input h2{
+    font-size: 35px;
+    font-weight: 700;
+}
 /* lets footer section end */
